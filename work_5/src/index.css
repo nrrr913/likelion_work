@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Malgun Gothic", sans-serif;
+  background-color: #f5f6f8;
+  color: #222;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.profile-card {
+  background-color: white;
+  border-radius: 16px;
+  padding: 40px 24px;
+  text-align: center;
+  border: 1px solid ghostwhite;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.name {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  list-style: none;
+}
+
+.profile-info li {
+  font-size: 15px;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.profile-info span {
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: royalblue;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: navy;
+}
