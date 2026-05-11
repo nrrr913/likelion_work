@@ -1,0 +1,20 @@
+.black-nav {
+  display: flex;
+  background: black;
+  width: 100%;
+  color: white;
+  padding-left: 20px;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.btns {
+  padding: 5px;
+  width: 150px;
+}
